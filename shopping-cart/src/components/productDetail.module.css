@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    margin: 5% 10%;
+    border: 1.5px solid gainsboro;
+    border-radius: 5px;
+    padding: 40px;
+    gap: 20px;
+}
+
+.container .left {
+    text-align: center;
+}
+
+.container .left img {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.container .right {
+    margin: auto 0;
+    border: 1.5px solid gainsboro;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.container .right .title {
+    color: dodgerblue;
+}
+
+.container .right .category span {
+    color: rgb(255, 172, 19);
+}
+
+.container .right .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .right .footer .price {
+    background-color: rgb(61, 192, 61);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container .right .footer a {
+    color: white;
+    background: dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width:992px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .container .left,
+    .container .left img {
+        width: 100%;
+    }
+}

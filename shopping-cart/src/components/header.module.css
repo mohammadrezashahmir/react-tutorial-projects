@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    box-shadow: 5px 10px 8px #e2e2e2;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    align-items: center;
+}
+.shopingI {
+    position: relative;
+    height: fit-content;
+}
+
+.shopingI .count{
+    display: flex;
+    background-color: dodgerblue;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+}

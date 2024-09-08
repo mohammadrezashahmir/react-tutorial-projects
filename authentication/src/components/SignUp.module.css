@@ -1,0 +1,70 @@
+.container {
+    width: 320px;
+    padding: 20px 40px;
+    margin: 40px auto;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+}
+
+.container .title {
+    color: dodgerblue;
+}
+
+.container label {
+    display: block;
+    padding: 15px 0 5px 0;
+    color: #656565;
+    font-weight: 600;
+}
+
+.container input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #a8a8a8;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.container input:focus {
+    outline: none;
+}
+.container .check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.container .check label{
+    padding: 0;
+    color: dodgerblue;
+}
+.container .check input {
+    width: fit-content;
+    height: fit-content !important;
+    scale: 1.3;
+}
+
+.container .btns {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .btns .btn {
+    font-size: 18px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.selected{
+    border-bottom-color: red !important;
+}
+.selected:focus{
+    border-bottom-color: dodgerblue !important;
+}
+.error{
+    color: red !important;
+}
+

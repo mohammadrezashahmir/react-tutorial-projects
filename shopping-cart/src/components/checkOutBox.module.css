@@ -1,0 +1,28 @@
+.box{
+    min-width: 250px;
+    border: 1.5px solid gainsboro;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 5px;
+  
+}
+.box .header div{
+    margin-bottom: 10px;
+}
+.box .header div span{
+    font-size: 18px;
+    color: dodgerblue;
+}
+.box .footer{
+    display: flex;
+    justify-content: space-between;
+}
+.box .footer button:first-child{
+    background: none;
+    color: green;
+}
+.box .footer button:nth-child(2){
+    background-color: green;
+}

@@ -1,0 +1,29 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
+    flex-wrap: wrap;
+}
+.item:last-child{
+    border: none;
+}
+.title{
+    width: 20%;
+}
+
+.symbol{
+    width: 15%;
+}
+.price{
+    width: 15%;
+}
+.cap{
+    width: 25%;
+}
+.green{
+    color: rgb(0, 216, 0);
+}
+.red{
+    color: red;
+}
